@@ -59,5 +59,6 @@
         "cfenv": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "ros.distro": "noetic"
 }

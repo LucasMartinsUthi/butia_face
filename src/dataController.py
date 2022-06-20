@@ -122,17 +122,17 @@ class dataflowEnable():
 
             print (self.motors)
             
-            self.joint.writeValue(4, int(self.motors[4]))
-            self.joint.writeValue(5, int(self.motors[5]))
-            self.joint.writeValue(6, int(self.motors[6]))
-            self.joint.writeValue(7, int(self.motors[7]))
-            self.joint.writeValue(10, int(self.motors[10]))
             self.joint.writeValue(0, int(self.motors[0]))
             self.joint.writeValue(1, int(self.motors[1]))
             self.joint.writeValue(2, int(self.motors[2]))
             self.joint.writeValue(3, int(self.motors[3]))
+            self.joint.writeValue(4, int(self.motors[4]))
+            self.joint.writeValue(5, int(self.motors[5]))
+            self.joint.writeValue(6, int(self.motors[6]))
+            self.joint.writeValue(7, int(self.motors[7]))
             self.joint.writeValue(8, int(self.motors[8]))
             self.joint.writeValue(9, int(self.motors[9]))
+            self.joint.writeValue(10, int(self.motors[10]))
             #self.joint.writeValue(10, int(self.motors[10]))
             
             time.sleep(0.001)
